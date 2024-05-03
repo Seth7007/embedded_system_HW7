@@ -1,4 +1,4 @@
-In HW7, we combine the code of HW2 and the source code and implement an FIR low pass filter, collect data (acceleration) of STM 32 board and then filter these data. The procedure are the following:  
+In HW7, we combine the code of HW2 and the source code and implement an FIR low pass filter, collect the acceleration data of STM 32 board and then filter these data. The procedure are the following:  
 1. Go to the source code link (https://github.com/ARM-software/CMSIS_4/tree/master/CMSIS), then choose DSP_Lib -> Exampls -> arm_fir_example/ARM -> arm_fir_example_f32.c. The sample data are in the file called arm_fir_data.c.
 2. Combine arm_fir_example_f32.c with HW2's code. We add the data and the filter part into HW2's code and change the format of the trasmitted data. The code is used to collect the data of STM32 board, and send them to the server side.
 3. In CMSIS/DSP_Lib/Source/TransformFunctions/arm_bitreversal2.S, add "#define __CC_ARM" before line 43.
