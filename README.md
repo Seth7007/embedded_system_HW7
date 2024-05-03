@@ -10,3 +10,4 @@ In HW7, we combine the code of HW2 and the source code and implement an FIR low 
 9. Note that if we collect to much data in one time, we need to run the program again.  
 10. The following plot shows that the FIR low pass filter works perfectly (compare filtered data generated from main.cpp and MATLAB to ensure that our main.cpp is correct).  ![Figure_1](https://github.com/Seth7007/embedded_system_HW7/assets/140083766/c32c77a0-60e9-43ca-a0d9-13487837da42)  
 11. The following plot shows that the collected data and the outcome of filtering. ![438231912_7632413383490173_7725555864280158541_n](https://github.com/Seth7007/embedded_system_HW7/assets/140083766/4deecc69-c0b8-4eef-91a9-c0e1d4231239)  
+12. From the data and its filtering counterpart, you can see that there are some delays in the filtered data.  
