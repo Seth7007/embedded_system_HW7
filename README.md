@@ -8,4 +8,3 @@ In HW7, we combine the code of HW2 and the source code and implement an FIR low 
 7. For socket server, we receive the data sent from the main.cpp, and print the data out in the format of plot. Ensure to change the IP address to your current IP.  
 8. Now, start to work. First, run main.cpp and socket_server.py and check that the STM 32 board and the server are connected to each other. Then press the button to collect acceleration data for 3.2 seconds (to collect 320 data). Then the data will be transmitted to the server, and the server can plot the data.
 Note that if we collect to much data in one time, we need to run the program again.
-We
