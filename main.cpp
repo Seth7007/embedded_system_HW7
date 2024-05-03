@@ -188,7 +188,7 @@ public:
                 printf("Error seding: %d\n", response);
                 break;
             }
-            ThisThread::sleep_for(100ms);
+            ThisThread::sleep_for(200ms);
         }
 
         uint32_t i;
@@ -220,7 +220,7 @@ public:
                 printf("Error seding: %d\n", response);
                 break;
             }
-            ThisThread::sleep_for(100ms);
+            ThisThread::sleep_for(200ms);
         }
         printf("Demo concluded successfully \r\n");
     }
